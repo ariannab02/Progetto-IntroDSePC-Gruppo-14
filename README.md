@@ -22,20 +22,32 @@ I modelli di machine learning utilizzati su Colab (python) sono stati:
 * Random Forest
 
 # Struttura del repository (provvisoria)
+
 ├── data/
+
 ├── figures/
+
 ├── notebooks/
+
 ├── report/
+
+├── LICENSE/
+
 └── README.md
 
 # Istruzioni per l'esecuzione
 Il repository si compone in più parti. 
 In /data sono presenti il dataset (formato .csv) su cui è stata svolta l'analisi quantitativa e un file informativo sulle variabili contenute nel dataset (formato .txt).
-In /notebooks si accede al fine .ipynb che carica le seguenti librerie:
+In /notebooks si accede al file .ipynb che carica le seguenti librerie:
 * pandas
 * numpy
+* matplotlib
 * seaborn
-* sklearn
+* scikit-learn
+
+
 Il file caricato è già eseguito.
 In /figures sono presenti le immagini (formato .png) presenti all'interno del report LaTeX.
-In /report si accede al report scientifico in .pdf e all'originale in formato .tex.
+In /report si accede alla relazione scientifica in .pdf e all'originale in formato .tex.
+
+Per rieseguire l'analisi è necessario scaricare il dataset sul proprio dispositivo. Poi, bisogna aprire il file notebook .ipynb con l'applicativo Google Colab, e successivamemte caricare il dataset nella sezione "file". Sarà poi quindi possibile ripetere le analisi.

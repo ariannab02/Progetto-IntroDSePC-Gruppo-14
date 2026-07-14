@@ -21,7 +21,7 @@ I modelli di machine learning utilizzati su Colab (python) sono stati:
 * K-nearest Neighbors
 * Random Forest
 
-# Struttura del repository (provvisoria)
+# Struttura del repository
 
 ├── data/
 
